@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <path id="wave" d="M 36 300
+      C 62 300, 72 262, 95 262
+      C 119 262, 128 345, 150 345
+      C 176 345, 184 180, 205 180
+      C 227 180, 233 332, 248 332
+      C 274 332, 284 288, 308 288
+      L 345 288"/>
+    <g id="stems">
+      <line x1="356.5" y1="96" x2="356.5" y2="372"/>
+    </g>
+    <g id="noteFills">
+      <path transform="translate(0 8)" d="M353.6 81.6 C371.2 102.4, 393.6 128.0, 411.2 152.0 C420.8 166.4, 424.8 184.0, 424.0 201.6 C423.2 216.0, 416.0 228.8, 405.3 236.3 C407.2 224.0, 409.6 204.8, 406.4 186.4 C402.4 171.2, 387.2 156.8, 364.8 147.2 Z"/>
+      <ellipse rx="50" ry="38.7" transform="translate(316 380) rotate(-22)"/>
+    </g>
+    <mask id="noteClearance" maskUnits="userSpaceOnUse" x="-20" y="-20" width="552" height="552">
+      <rect x="-20" y="-20" width="552" height="552" fill="white"/>
+      <use href="#stems" stroke="black" stroke-width="54" fill="none" stroke-linecap="round"/>
+      <use href="#noteFills" fill="black" stroke="black" stroke-width="38"/>
+    </mask>
+    <mask id="waveClearance" maskUnits="userSpaceOnUse" x="-20" y="-20" width="552" height="552">
+      <rect x="-20" y="-20" width="552" height="552" fill="white"/>
+      <use href="#wave" stroke="black" stroke-width="54" fill="none" stroke-linecap="square"/>
+    </mask>
+  </defs>
+  <g mask="url(#noteClearance)" stroke="#ffffff" stroke-width="16" fill="none">
+    <use href="#wave" stroke-linecap="square"/>
+    <path mask="url(#waveClearance)" d="M340 288H470"/>
+  </g>
+  <use href="#stems" stroke="#ff5b7a" stroke-width="16" fill="none" stroke-linecap="round"/>
+  <use href="#noteFills" fill="#ff5b7a"/>
+</svg>
