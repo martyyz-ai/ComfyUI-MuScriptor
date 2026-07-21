@@ -32,7 +32,7 @@ Navigate to your ComfyUI `custom_nodes` directory and clone this repository:
 
 ```bash
 cd ComfyUI/custom_nodes
-git clone https://github.com/your-username/ComfyUI-MuScriptor.git comfyui-muscriptor
+git clone https://github.com/martyyz-ai/ComfyUI-MuScriptor.git comfyui-muscriptor
 ```
 
 #### 2. Install Requirements
@@ -109,7 +109,7 @@ Navegue até a pasta `custom_nodes` da sua instalação do ComfyUI e clone este 
 
 ```bash
 cd ComfyUI/custom_nodes
-git clone https://github.com/seu-usuario/ComfyUI-MuScriptor.git comfyui-muscriptor
+git clone https://github.com/martyyz-ai/ComfyUI-MuScriptor.git comfyui-muscriptor
 ```
 
 #### 2. Instalar Requisitos
