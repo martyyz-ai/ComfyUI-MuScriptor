@@ -1,7 +1,7 @@
 [project]
 name = "ComfyUI-MuScriptor"
 description = "Translates Audio Music to MIDI"
-version = "1.0.2"
+version = "1.0.3"
 license = "MIT" 
  classifiers = [
      # For OS-independent nodes (works on all operating systems)
